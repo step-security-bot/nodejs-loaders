@@ -17,3 +17,78 @@ updates:
     directory: /
     schedule:
       interval: monthly
+
+  - package-ecosystem: npm
+    directory: /packages/alias
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/css-module
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/deno-npm-prefix
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/jsonc
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/media
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/mismatched-format/fixtures/actually-cjs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/mismatched-format/fixtures/actually-esm
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/mismatched-format
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/parse-filename
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/svelte
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/svgx
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/text
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/tsx/fixtures/with-config
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/tsx
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/yaml
+    schedule:
+      interval: daily
